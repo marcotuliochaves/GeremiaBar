@@ -585,10 +585,16 @@ export const drinks: Bebida[] = [
   },
 ];
 
-export const caips = [
+export const caips: Bebida[] = [
   {
-    titulo: "Caip Seleta",
-    descricao: "",
+    titulo: {
+      pt: "Caip Seleta",
+      en: "Caip Seleta",
+    },
+    descricao: {
+      pt: "",
+      en: "",
+    },
     preco: [
       { pt: "Limão R$ 20,00", en: "Lime R$ 20.00" },
       { pt: "Morango R$ 20,00", en: "Strawberry R$ 20.00" },
@@ -607,8 +613,14 @@ export const caips = [
     imagem: "/null.webp",
   },
   {
-    titulo: "Caipirinha",
-    descricao: "",
+    titulo: {
+      pt: "Caipirinha",
+      en: "Caipirinha",
+    },
+    descricao: {
+      pt: "",
+      en: "",
+    },
     preco: [
       { pt: "Limão R$ 18,00", en: "Lime R$ 18.00" },
       { pt: "Morango R$ 18,00", en: "Strawberry R$ 18.00" },
@@ -627,8 +639,14 @@ export const caips = [
     imagem: "/null.webp",
   },
   {
-    titulo: "Caiproska",
-    descricao: "",
+    titulo: {
+      pt: "Caiproska",
+      en: "Caiproska",
+    },
+    descricao: {
+      pt: "",
+      en: "",
+    },
     preco: [
       { pt: "Limão R$ 20,00", en: "Lime R$ 20.00" },
       { pt: "Morango R$ 20,00", en: "Strawberry R$ 20.00" },
@@ -647,8 +665,14 @@ export const caips = [
     imagem: "/null.webp",
   },
   {
-    titulo: "Caip Absolut",
-    descricao: "",
+    titulo: {
+      pt: "Caip Absolut",
+      en: "Caip Absolut",
+    },
+    descricao: {
+      pt: "",
+      en: "",
+    },
     preco: [
       { pt: "Limão R$ 26,00", en: "Lime R$ 26.00" },
       { pt: "Morango R$ 26,00", en: "Strawberry R$ 26.00" },
@@ -667,8 +691,14 @@ export const caips = [
     imagem: "/null.webp",
   },
   {
-    titulo: "Caip Saquê",
-    descricao: "",
+    titulo: {
+      pt: "Caip Saquê",
+      en: "Caip Saquê",
+    },
+    descricao: {
+      pt: "",
+      en: "",
+    },
     preco: [
       { pt: "Limão R$ 20,00", en: "Lime R$ 20.00" },
       { pt: "Morango R$ 20,00", en: "Strawberry R$ 20.00" },
