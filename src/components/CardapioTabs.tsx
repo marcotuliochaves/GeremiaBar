@@ -1,10 +1,15 @@
 "use client";
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, ReactElement } from "react";
 
 type Principal = "Comidas" | "Bebidas" | "Souvenir";
 
+interface CardapioItemProps {
+  categoria: string;
+  children?: React.ReactNode;
+}
+
 interface CardapioTabsProps {
-  children: React.ReactNode;
+  children: ReactElement<CardapioItemProps>[]; // array de elementos com prop 'categoria'
   locale: "pt" | "en";
 }
 
@@ -102,21 +107,18 @@ export default function CardapioTabs({ children, locale }: CardapioTabsProps) {
     },
   };
 
+  // Atualiza categoria ativa sempre que a principal mudar
   useEffect(() => {
-    if (categorias[categoriaPrincipal].length > 0) {
-      setCategoriaAtiva(categorias[categoriaPrincipal][0]);
-    } else {
-      setCategoriaAtiva(null);
-    }
-  }, [categoriaPrincipal]);
+    const primeira = categorias[categoriaPrincipal][0] ?? null;
+    setCategoriaAtiva(primeira);
+  }, [categoriaPrincipal, categorias]);
 
+  // Filtra child ativo com tipagem correta
   const activeChild =
-    React.Children.toArray(children).find((child: any) => {
-      if (!categoriaPrincipal) return false;
-      if (categoriaPrincipal === "Souvenir") {
-        return child?.props?.categoria === "Souvenir";
-      }
-      return child?.props?.categoria === categoriaAtiva;
+    children.find((child) => {
+      if (categoriaPrincipal === "Souvenir")
+        return child.props.categoria === "Souvenir";
+      return child.props.categoria === categoriaAtiva;
     }) ?? null;
 
   return (
@@ -133,7 +135,7 @@ export default function CardapioTabs({ children, locale }: CardapioTabsProps) {
                 : "bg-zinc-100 text-zinc-700 border-zinc-200"
             }`}
           >
-            {traducoes[locale]?.[principal] ?? principal}
+            {traducoes[locale][principal]}
           </button>
         ))}
       </div>
@@ -151,7 +153,7 @@ export default function CardapioTabs({ children, locale }: CardapioTabsProps) {
                   : "bg-zinc-100 text-zinc-700 border-zinc-200"
               }`}
             >
-              {traducoes[locale]?.[sub] ?? sub}
+              {traducoes[locale][sub]}
             </button>
           ))}
         </div>

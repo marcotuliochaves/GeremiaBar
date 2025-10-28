@@ -1,8 +1,12 @@
 import Image from "next/image";
 import ScrollToTopButton from "@/components/ScrollToTopButton";
 
-export default function HistoriaPage({ params }: any) {
-  const locale = params?.locale === "en" ? "en" : "pt";
+export default function HistoriaPage({
+  params,
+}: {
+  params: Record<string, string>;
+}) {
+  const locale = params.locale === "en" ? "en" : "pt";
 
   const textos = {
     pt: {
@@ -33,7 +37,7 @@ export default function HistoriaPage({ params }: any) {
     },
   };
 
-  const t = textos[locale] || textos.pt;
+  const t = textos[locale];
 
   return (
     <div className="flex flex-col items-center">
@@ -79,10 +83,6 @@ export default function HistoriaPage({ params }: any) {
 
       {/* Galeria */}
       <section className="w-full bg-gray-50 -mt-20">
-        <h2 className="text-4xl font-semibold text-center text-[#f98409] mb-14">
-          {/*{locale === "pt" ? "Galeria de Fotos" : "Photo Gallery"}*/}
-        </h2>
-
         <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 px-6">
           {[
             "/frente.webp",
@@ -112,6 +112,7 @@ export default function HistoriaPage({ params }: any) {
           ))}
         </div>
       </section>
+
       <ScrollToTopButton />
     </div>
   );

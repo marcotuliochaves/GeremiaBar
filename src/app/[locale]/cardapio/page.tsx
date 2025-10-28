@@ -1,4 +1,7 @@
 import CardapioCard from "@/components/CardapioCard";
+import CardapioTabs from "@/components/CardapioTabs";
+import CardapioCategoria from "@/components/CardapioCategoria";
+import ScrollToTopButton from "@/components/ScrollToTopButton";
 import {
   pratosPorcoes,
   pratosPrincipais,
@@ -26,13 +29,9 @@ import {
   growler,
 } from "@/data/bebidas";
 import { souvenir } from "@/data/souvenir";
-import CardapioTabs from "@/components/CardapioTabs";
-import CardapioCategoria from "@/components/CardapioCategoria";
-import ScrollToTopButton from "@/components/ScrollToTopButton";
 import type { Prato } from "@/data/pratos";
 
 export default function CardapioPage({ params }: any) {
-  // Garante que locale só pode ser 'pt' ou 'en'
   const locale = params?.locale === "en" ? "en" : "pt";
 
   const textos: Record<
