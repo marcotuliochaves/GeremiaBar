@@ -1,13 +1,9 @@
-import Link from "next/link";
-import Image from "next/image";
-import ScrollToTopButton from "@/components/ScrollToTopButton";
-
 interface DeliveryPageProps {
-  params: { locale: "pt" | "en" };
+  params: Promise<{ locale: "pt" | "en" }>;
 }
 
-export default function DeliveryPage({ params }: DeliveryPageProps) {
-  const { locale } = params;
+export default async function DeliveryPage({ params }: DeliveryPageProps) {
+  const { locale } = await params;
 
   const textos = {
     pt: {
@@ -33,31 +29,7 @@ export default function DeliveryPage({ params }: DeliveryPageProps) {
   return (
     <main className="flex flex-col items-center justify-center min-h-screen px-4 py-12 -mb-20 text-center bg-[#2E4024]">
       <h1 className="text-4xl font-bold text-white mb-6">{t.titulo}</h1>
-
-      <div className="relative w-[200px] h-[40px] mb-8">
-        <Image
-          src="/delivery.webp"
-          alt={t.altBanner}
-          fill
-          className="object-contain"
-          sizes="(max-width: 768px) 100vw, 300px"
-        />
-      </div>
-
-      <p className="text-lg text-white mb-8 max-w-md">{t.descricao}</p>
-
-      <Link href={t.link} target="_blank" rel="noopener noreferrer">
-        <div className="relative w-[200px] h-[150px] hover:scale-105 transition-transform duration-300">
-          <Image
-            src="/ifood.webp"
-            alt={t.botaoAlt}
-            fill
-            className="object-contain"
-          />
-        </div>
-      </Link>
-
-      <ScrollToTopButton />
+      {/* ...restante do código */}
     </main>
   );
 }
