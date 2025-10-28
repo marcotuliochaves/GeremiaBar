@@ -7,7 +7,7 @@ interface ContatoPageProps {
   };
 }
 
-export default async function ContatoPage({ params }: ContatoPageProps) {
+export default function ContatoPage({ params }: ContatoPageProps) {
   const { locale } = params;
 
   const textos = {
