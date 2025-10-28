@@ -2,13 +2,11 @@ import Link from "next/link";
 import Image from "next/image";
 
 interface ContatoPageProps {
-  params: {
-    locale: "pt" | "en";
-  };
+  params: Promise<{ locale: "pt" | "en" }>;
 }
 
-export default function ContatoPage({ params }: ContatoPageProps) {
-  const { locale } = params;
+export default async function ContatoPage({ params }: ContatoPageProps) {
+  const { locale } = await params;
 
   const textos = {
     pt: {
