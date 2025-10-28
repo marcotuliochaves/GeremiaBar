@@ -9,6 +9,7 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@netlify/plugin-nextjs": "^5.14.4",
     "embla-carousel-react": "^8.6.0",
     "framer-motion": "^12.23.22",
     "lucide-react": "^0.544.0",
