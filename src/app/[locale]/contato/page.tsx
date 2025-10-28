@@ -1,12 +1,8 @@
 import Link from "next/link";
 import Image from "next/image";
 
-export default function ContatoPage({
-  params,
-}: {
-  params: { locale: "pt" | "en" };
-}) {
-  const { locale } = params;
+export default function ContatoPage({ params }: any) {
+  const locale = params?.locale === "en" ? "en" : "pt";
 
   const textos = {
     pt: {
@@ -27,7 +23,7 @@ export default function ContatoPage({
     },
   };
 
-  const t = textos[locale] || textos.pt;
+  const t = textos[locale];
 
   return (
     <main

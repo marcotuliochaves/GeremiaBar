@@ -2,12 +2,8 @@ import Link from "next/link";
 import Image from "next/image";
 import ScrollToTopButton from "@/components/ScrollToTopButton";
 
-export default function DeliveryPage({
-  params,
-}: {
-  params: { locale: "pt" | "en" };
-}) {
-  const { locale } = params;
+export default function DeliveryPage({ params }: any) {
+  const locale = params?.locale === "en" ? "en" : "pt";
 
   const textos = {
     pt: {
@@ -28,7 +24,7 @@ export default function DeliveryPage({
     },
   };
 
-  const t = textos[locale] || textos.pt;
+  const t = textos[locale];
 
   return (
     <main
@@ -63,6 +59,7 @@ export default function DeliveryPage({
           />
         </div>
       </Link>
+
       <ScrollToTopButton />
     </main>
   );

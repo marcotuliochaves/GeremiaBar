@@ -1,12 +1,8 @@
 import Image from "next/image";
 import ScrollToTopButton from "@/components/ScrollToTopButton";
 
-export default function HistoriaPage({
-  params,
-}: {
-  params: { locale: "pt" | "en" };
-}) {
-  const { locale } = params;
+export default function HistoriaPage({ params }: any) {
+  const locale = params?.locale === "en" ? "en" : "pt";
 
   const textos = {
     pt: {
