@@ -31,8 +31,12 @@ import {
 import { souvenir } from "@/data/souvenir";
 import type { Prato } from "@/data/pratos";
 
-export default function CardapioPage({ params }: any) {
-  const locale = params?.locale === "en" ? "en" : "pt";
+interface CardapioPageProps {
+  params: Promise<{ locale: "pt" | "en" }>;
+}
+
+export default async function CardapioPage({ params }: CardapioPageProps) {
+  const { locale } = await params;
 
   const textos: Record<
     "pt" | "en",
