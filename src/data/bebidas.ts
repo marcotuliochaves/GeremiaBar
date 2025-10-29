@@ -1,17 +1,6 @@
-// src/data/bebidas.ts
-export type TextoBilíngue = {
-  pt: string;
-  en: string;
-};
+import type { ItemCardapio } from "@/types/itemCardapio";
 
-export type Bebida = {
-  titulo: TextoBilíngue;
-  descricao: TextoBilíngue;
-  preco: string | string[] | TextoBilíngue[];
-  imagem: string;
-};
-
-export const chopps: Bebida[] = [
+export const chopps: ItemCardapio[] = [
   {
     titulo: {
       pt: "Chopp Heineken",
@@ -74,7 +63,7 @@ export const chopps: Bebida[] = [
   },
 ];
 
-export const cervejas600: Bebida[] = [
+export const cervejas600: ItemCardapio[] = [
   {
     titulo: {
       pt: "Heineken",
@@ -137,7 +126,7 @@ export const cervejas600: Bebida[] = [
   },
 ];
 
-export const longNecks: Bebida[] = [
+export const longNecks: ItemCardapio[] = [
   {
     titulo: {
       pt: "Amstel Ultra - Sem Glúten",
@@ -224,7 +213,7 @@ export const longNecks: Bebida[] = [
   },
 ];
 
-export const drinks: Bebida[] = [
+export const drinks: ItemCardapio[] = [
   {
     titulo: {
       pt: "Carmen Citrus",
@@ -585,7 +574,7 @@ export const drinks: Bebida[] = [
   },
 ];
 
-export const caips: Bebida[] = [
+export const caips: ItemCardapio[] = [
   {
     titulo: {
       pt: "Caip Seleta",
@@ -718,7 +707,7 @@ export const caips: Bebida[] = [
   },
 ];
 
-export const sucos: Bebida[] = [
+export const sucos: ItemCardapio[] = [
   {
     titulo: {
       pt: "Laranja",
@@ -889,7 +878,7 @@ export const sucos: Bebida[] = [
   },
 ];
 
-export const zeroAlcool: Bebida[] = [
+export const zeroAlcool: ItemCardapio[] = [
   {
     titulo: {
       pt: "Água sem gás",
@@ -1084,7 +1073,7 @@ export const zeroAlcool: Bebida[] = [
   },
 ];
 
-export const cachacaDose: Bebida[] = [
+export const cachacaDose: ItemCardapio[] = [
   {
     titulo: {
       pt: "Cachaça Geremia Ouro",
@@ -1147,7 +1136,7 @@ export const cachacaDose: Bebida[] = [
   },
 ];
 
-export const vinhos: Bebida[] = [
+export const vinhos: ItemCardapio[] = [
   {
     titulo: {
       pt: "El Raco",
@@ -1282,7 +1271,7 @@ export const vinhos: Bebida[] = [
   },
 ];
 
-export const destiladosDose: Bebida[] = [
+export const destiladosDose: ItemCardapio[] = [
   {
     titulo: {
       pt: "Absolut",
@@ -1393,7 +1382,7 @@ export const destiladosDose: Bebida[] = [
   },
 ];
 
-export const destiladosGarrafa: Bebida[] = [
+export const destiladosGarrafa: ItemCardapio[] = [
   {
     titulo: {
       pt: "Cachaça Geremia Ouro",
@@ -1492,7 +1481,7 @@ export const destiladosGarrafa: Bebida[] = [
   },
 ];
 
-export const whiskyDose: Bebida[] = [
+export const whiskyDose: ItemCardapio[] = [
   {
     titulo: {
       pt: "Old Parr",
@@ -1555,7 +1544,7 @@ export const whiskyDose: Bebida[] = [
   },
 ];
 
-export const whiskyGarrafa: Bebida[] = [
+export const whiskyGarrafa: ItemCardapio[] = [
   {
     titulo: {
       pt: "Old Parr",
@@ -1618,7 +1607,7 @@ export const whiskyGarrafa: Bebida[] = [
   },
 ];
 
-export const growler: Bebida[] = [
+export const growler: ItemCardapio[] = [
   {
     titulo: {
       pt: "Growler de chopp Heineken",

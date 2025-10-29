@@ -1,10 +1,8 @@
 "use client";
-
 interface CardapioCategoriaProps {
   categoria: string;
   children: React.ReactNode;
 }
-
 export default function CardapioCategoria({
   categoria,
   children,

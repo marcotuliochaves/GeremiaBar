@@ -1,17 +1,6 @@
-// src/data/souvenir.ts
-type TextoBilíngue = {
-  pt: string;
-  en: string;
-};
+import type { ItemCardapio } from "@/types/itemCardapio";
 
-export type Souvenir = {
-  titulo: TextoBilíngue;
-  descricao: TextoBilíngue;
-  preco: string | string[];
-  imagem: string;
-};
-
-export const souvenir: Souvenir[] = [
+export const souvenir: ItemCardapio[] = [
   {
     titulo: {
       pt: "Cachaça Geremia Ouro",

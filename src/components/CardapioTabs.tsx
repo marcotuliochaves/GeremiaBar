@@ -1,5 +1,5 @@
 "use client";
-import React, { useState, useEffect, ReactElement } from "react";
+import React, { useState, useEffect, ReactElement, ReactNode } from "react";
 
 type Principal = "Comidas" | "Bebidas" | "Souvenir";
 
@@ -110,21 +110,29 @@ export default function CardapioTabs({ children, locale }: CardapioTabsProps) {
   // Atualiza categoria ativa sempre que a principal mudar
   useEffect(() => {
     const primeira = categorias[categoriaPrincipal][0] ?? null;
-    setCategoriaAtiva(primeira);
-  }, [categoriaPrincipal, categorias]);
+    setCategoriaAtiva((prev) =>
+      categorias[categoriaPrincipal].includes(prev ?? "") ? prev : primeira
+    );
+  });
 
   // Filtra child ativo com tipagem correta
   const activeChild =
-    children.find((child) => {
-      if (categoriaPrincipal === "Souvenir")
+    React.Children.toArray(children).find((child) => {
+      if (!React.isValidElement<CardapioItemProps>(child)) return false;
+
+      if (categoriaPrincipal === "Souvenir") {
         return child.props.categoria === "Souvenir";
+      }
+
       return child.props.categoria === categoriaAtiva;
     }) ?? null;
 
   return (
     <div className="max-w-7xl mx-auto px-4 py-8 space-y-6 pt-28">
-      {/* Navegação principal */}
+      {" "}
+      {/* Navegação principal */}{" "}
       <div className="flex flex-wrap gap-4 justify-center">
+        {" "}
         {(Object.keys(categorias) as Principal[]).map((principal) => (
           <button
             key={principal}
@@ -135,14 +143,15 @@ export default function CardapioTabs({ children, locale }: CardapioTabsProps) {
                 : "bg-zinc-100 text-zinc-700 border-zinc-200"
             }`}
           >
-            {traducoes[locale][principal]}
+            {" "}
+            {traducoes[locale][principal]}{" "}
           </button>
-        ))}
+        ))}{" "}
       </div>
-
-      {/* Subcategorias */}
+      {/* Subcategorias */}{" "}
       {categoriaPrincipal && categorias[categoriaPrincipal].length > 0 && (
         <div className="overflow-x-auto md:overflow-visible whitespace-nowrap md:whitespace-normal flex gap-2 md:flex-wrap justify-start md:justify-center px-2 scrollbar-hide">
+          {" "}
           {categorias[categoriaPrincipal].map((sub) => (
             <button
               key={sub}
@@ -153,14 +162,14 @@ export default function CardapioTabs({ children, locale }: CardapioTabsProps) {
                   : "bg-zinc-100 text-zinc-700 border-zinc-200"
               }`}
             >
-              {traducoes[locale][sub]}
+              {" "}
+              {traducoes[locale][sub]}{" "}
             </button>
-          ))}
+          ))}{" "}
         </div>
-      )}
-
+      )}{" "}
       {/* Conteúdo da subcategoria ativa */}
-      <div>{activeChild}</div>
+      <div>{activeChild}</div>{" "}
     </div>
   );
 }

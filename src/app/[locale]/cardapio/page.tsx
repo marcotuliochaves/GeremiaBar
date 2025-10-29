@@ -2,6 +2,7 @@ import CardapioCard from "@/components/CardapioCard";
 import CardapioTabs from "@/components/CardapioTabs";
 import CardapioCategoria from "@/components/CardapioCategoria";
 import ScrollToTopButton from "@/components/ScrollToTopButton";
+
 import {
   pratosPorcoes,
   pratosPrincipais,
@@ -29,7 +30,7 @@ import {
   growler,
 } from "@/data/bebidas";
 import { souvenir } from "@/data/souvenir";
-import type { Prato } from "@/data/pratos";
+import type { TextoBilíngue } from "@/types/itemCardapio";
 
 interface CardapioPageProps {
   params: Promise<{ locale: "pt" | "en" }>;
@@ -100,7 +101,7 @@ export default async function CardapioPage({ params }: CardapioPageProps) {
     },
   };
 
-  const renderCardapio = (categoria: string, pratos: Prato[]) => (
+  const renderCardapio = (categoria: string, itens: any[]) => (
     <CardapioCategoria categoria={categoria} key={categoria}>
       <main className="bg-white text-black px-6 py-10 min-h-screen">
         <div className="max-w-7xl mx-auto space-y-12">
@@ -112,23 +113,22 @@ export default async function CardapioPage({ params }: CardapioPageProps) {
               </p>
             )}
           </h1>
-
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 justify-items-center items-stretch">
-            {pratos.map((prato, index) => (
+            {itens.map((item, index) => (
               <CardapioCard
                 key={index}
-                titulo={prato.titulo[locale] ?? prato.titulo}
-                descricao={prato.descricao[locale] ?? prato.descricao}
+                titulo={item.titulo[locale]}
+                descricao={item.descricao[locale]}
                 preco={
-                  Array.isArray(prato.preco)
-                    ? prato.preco.map((p) =>
+                  Array.isArray(item.preco)
+                    ? item.preco.map((p: string | TextoBilíngue) =>
                         typeof p === "string" ? p : p[locale]
                       )
-                    : typeof prato.preco === "string"
-                    ? prato.preco
-                    : prato.preco[locale]
+                    : typeof item.preco === "string"
+                    ? item.preco
+                    : item.preco[locale]
                 }
-                imagem={prato.imagem}
+                imagem={item.imagem}
               />
             ))}
           </div>

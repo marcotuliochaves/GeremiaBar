@@ -1,17 +1,6 @@
-// src/data/pratos.ts
-type TextoBilíngue = {
-  pt: string;
-  en: string;
-};
+import type { ItemCardapio } from "@/types/itemCardapio";
 
-export type Prato = {
-  titulo: TextoBilíngue;
-  descricao: TextoBilíngue;
-  preco: string | string[] | TextoBilíngue[];
-  imagem: string;
-};
-
-export const pratosPorcoes: Prato[] = [
+export const pratosPorcoes: ItemCardapio[] = [
   {
     titulo: {
       pt: "Pastel carne e queijo",
@@ -399,7 +388,7 @@ export const pratosPorcoes: Prato[] = [
   },
 ];
 
-export const pratosPrincipais: Prato[] = [
+export const pratosPrincipais: ItemCardapio[] = [
   {
     titulo: {
       pt: "Feijuca do Gerê – Duplo",
@@ -666,7 +655,7 @@ export const pratosPrincipais: Prato[] = [
   },
 ];
 
-export const paraAcompanhar: Prato[] = [
+export const paraAcompanhar: ItemCardapio[] = [
   {
     titulo: {
       pt: "Chips de quiabo",
@@ -777,7 +766,7 @@ export const paraAcompanhar: Prato[] = [
   },
 ];
 
-export const saladinha: Prato[] = [
+export const saladinha: ItemCardapio[] = [
   {
     titulo: {
       pt: "Burrata com tomate cereja, pesto de manjerição e rúcula.",
@@ -915,7 +904,7 @@ export const saladinha: Prato[] = [
   },
 ];
 
-export const vegetarianos: Prato[] = [
+export const vegetarianos: ItemCardapio[] = [
   {
     titulo: {
       pt: "Espaguete de abobrinha",
@@ -1029,7 +1018,7 @@ export const vegetarianos: Prato[] = [
   },
 ];
 
-export const sanduiche: Prato[] = [
+export const sanduiche: ItemCardapio[] = [
   {
     titulo: {
       pt: "Sanduíche de filé mignon",
@@ -1044,7 +1033,7 @@ export const sanduiche: Prato[] = [
   },
 ];
 
-export const caldinhos: Prato[] = [
+export const caldinhos: ItemCardapio[] = [
   {
     titulo: {
       pt: "Caldinho de feijão",
@@ -1095,7 +1084,7 @@ export const caldinhos: Prato[] = [
   },
 ];
 
-export const sobremesas: Prato[] = [
+export const sobremesas: ItemCardapio[] = [
   {
     titulo: {
       pt: "Pudim de leite condensado",
