@@ -63,40 +63,42 @@ export default function Home() {
         </section>
 
         {/* Galeria */}
-        <section className="relative w-full h-[50vh] flex flex-col md:flex-row">
-          <div className="relative w-full md:w-1/2 h-full overflow-hidden">
-            <Image
-              src="/historia/geremia-interna2.webp"
-              alt={text.galleryAlt}
-              fill
-              className="object-cover"
-              priority
-            />
-            <div
-              className="absolute inset-0 backdrop-blur-sm flex items-center justify-center"
-              style={{ backgroundColor: "rgba(249, 132, 9, 0.4)" }}
-            >
-              <h2 className="text-white text-2xl font-bold drop-shadow-md">
-                {text.gallery}
-              </h2>
+        <Link href={`/${safeLocale}/galeria`}>
+          <section className="relative w-full h-[50vh] flex flex-col md:flex-row">
+            <div className="relative w-full md:w-1/2 h-full overflow-hidden">
+              <Image
+                src="/historia/geremia-interna2.webp"
+                alt={text.galleryAlt}
+                fill
+                className="object-cover"
+                priority
+              />
+              <div
+                className="absolute inset-0 backdrop-blur-sm flex items-center justify-center"
+                style={{ backgroundColor: "rgba(249, 132, 9, 0.4)" }}
+              >
+                <h2 className="text-white text-2xl font-bold drop-shadow-md">
+                  {text.gallery}
+                </h2>
+              </div>
             </div>
-          </div>
 
-          <div
-            className="flex items-center justify-center px-8 py-6 md:w-1/2 text-center"
-            style={{ backgroundColor: "#F98409", color: "#000" }}
-          >
-            <div>
-              <p className="text-lg font-semibold mb-4">{text.galleryIntro}</p>
-              <p className="text-base mb-6">{text.galleryText}</p>
-              <Link href={`/${safeLocale}/galeria`}>
+            <div
+              className="flex items-center justify-center px-8 py-6 md:w-1/2 text-center"
+              style={{ backgroundColor: "#F98409", color: "#000" }}
+            >
+              <div>
+                <p className="text-lg font-semibold mb-4">
+                  {text.galleryIntro}
+                </p>
+                <p className="text-base mb-6">{text.galleryText}</p>
                 <button className="bg-black text-white px-6 py-2 rounded-full hover:bg-gray-800 transition">
                   {text.seeGallery}
                 </button>
-              </Link>
+              </div>
             </div>
-          </div>
-        </section>
+          </section>
+        </Link>
       </main>
       <ScrollToTopButton />
     </div>

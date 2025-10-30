@@ -55,8 +55,8 @@ export default function Header({ locale }: HeaderProps) {
           <Image
             src="/logo.svg"
             alt="Logo Geremia Bar"
-            width={240}
-            height={240}
+            width={400}
+            height={400}
             priority
           />
         </Link>
@@ -142,7 +142,7 @@ export default function Header({ locale }: HeaderProps) {
               animate={{ x: 0 }}
               exit={{ x: "100%" }}
               transition={{ duration: 0.35, ease: "easeInOut" }}
-              className="fixed top-20 -right-1 h-2/4 w-2/4 bg-[#1E2719] flex flex-col items-center py-10 gap-6 text-lg font-medium md:hidden z-40 shadow-lg"
+              className="fixed top-20 -right-1 h-3/5 w-2/4 bg-[#1E2719] flex flex-col items-center py-10 gap-6 text-lg font-medium md:hidden z-40 shadow-lg"
             >
               {links.map((link) => (
                 <Link

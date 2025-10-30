@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 type FooterProps = {
   locale: "pt" | "en";
@@ -23,7 +24,7 @@ export default function Footer({ locale }: FooterProps) {
         </div>
 
         {/* Parceiros */}
-        <div>
+        <div className="mb-10">
           <h2 className="text-center text-xl font-bold mb-4 text-yellow-400">
             {text.parceiros}
           </h2>
@@ -56,6 +57,40 @@ export default function Footer({ locale }: FooterProps) {
         </div>
       </div>
 
+      <div className="flex gap-5 justify-center -mb-8">
+        <Link
+          href={`https://www.tripadvisor.com.br/Restaurant_Review-g1959794-d8733589-Reviews-Geremia_Bar-Uberaba_State_of_Minas_Gerais.html`}
+        >
+          <Image
+            src="/tripadvisor-logo.svg"
+            alt="Tripadvisor"
+            width={130}
+            height={130}
+            style={{ width: "auto", height: "auto" }}
+            className="max-h-10 w-auto"
+          />
+        </Link>
+        <Link href={`https://www.instagram.com/geremiabar/`}>
+          <Image
+            src="/instagram-logo.svg"
+            alt="Instagram"
+            width={130}
+            height={130}
+            style={{ width: "auto", height: "auto" }}
+            className="max-h-10 w-auto"
+          />
+        </Link>
+        <Link href={`https://www.facebook.com/geremiabar`}>
+          <Image
+            src="/facebook-logo.svg"
+            alt="Facebook"
+            width={130}
+            height={130}
+            style={{ width: "auto", height: "auto" }}
+            className="max-h-10 w-auto"
+          />
+        </Link>
+      </div>
       {/* Mapa */}
       <div className="max-w-4xl mx-auto mt-12 rounded-xl overflow-hidden shadow-lg">
         <iframe

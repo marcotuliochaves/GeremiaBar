@@ -16,6 +16,7 @@ export default async function ContatoPage({ params }: ContatoPageProps) {
         "Fale com a gente pelo WhatsApp! Tire dúvidas, faça reservas ou envie sugestões.",
       botaoAlt: "WhatsApp",
       link: "https://wa.me/553433121515",
+      paragrafo: "Clique aqui!",
     },
     en: {
       titulo: "Contact",
@@ -24,6 +25,7 @@ export default async function ContatoPage({ params }: ContatoPageProps) {
         "Get in touch with us on WhatsApp! Ask questions, make reservations, or send suggestions.",
       botaoAlt: "WhatsApp",
       link: "https://wa.me/553433121515",
+      paragrafo: "Click here!",
     },
   };
 
@@ -45,7 +47,7 @@ export default async function ContatoPage({ params }: ContatoPageProps) {
 
       <p className="text-lg text-white mb-8 max-w-md">{t.descricao}</p>
 
-      <Link href={t.link} target="_blank" rel="noopener noreferrer">
+      <Link href={t.link} target="_blank" rel="noopener noreferrer ">
         <div className="relative w-[100px] h-[80px] transition-transform duration-300 hover:scale-110 cursor-pointer">
           <Image
             src="/whatsapp-button.webp"
@@ -54,6 +56,9 @@ export default async function ContatoPage({ params }: ContatoPageProps) {
             className="object-contain"
           />
         </div>
+        <p className="text-lg text-white mb-8 max-w-md hover:scale-110 cursor-pointer mt-2">
+          {t.paragrafo}
+        </p>
       </Link>
     </main>
   );
