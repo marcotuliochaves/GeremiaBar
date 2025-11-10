@@ -10,7 +10,7 @@ export const pratosPorcoes: ItemCardapio[] = [
       pt: "Pastel recheado com carne e queijo (3 unidades de cada).",
       en: "Pastry filled with ground beef and cheese (3 pieces of each).",
     },
-    preco: "R$ 55,00",
+    preco: "R$ 56,00",
     imagem: "/porcoes/pastel-carne-queijo.webp",
   },
   {
@@ -22,7 +22,7 @@ export const pratosPorcoes: ItemCardapio[] = [
       pt: "Pastel tradicional recheado com pernil (6 unidades).",
       en: "Pastry filled with ground beef (6 pieces).",
     },
-    preco: "R$ 55,00",
+    preco: "R$ 56,00",
     imagem: "/porcoes/pastel-pernil.webp",
   },
   {
@@ -34,7 +34,7 @@ export const pratosPorcoes: ItemCardapio[] = [
       pt: "Muito crocante. Contém 10 unidades.",
       en: "A crunchy fried ball stuffed with ribs.",
     },
-    preco: "R$ 95,00",
+    preco: "R$ 99,00",
     imagem: "/porcoes/coxinha-de-costela.webp",
   },
   {
@@ -46,7 +46,7 @@ export const pratosPorcoes: ItemCardapio[] = [
       pt: "Muito crocante. Contém 5 unidades de frango e 5 de costela.",
       en: "A crunchy fried ball stuffed with ribs or chicken.",
     },
-    preco: "R$ 90,00",
+    preco: "R$ 92,00",
     imagem: "/porcoes/coxinha-mista.webp",
   },
   {
@@ -58,7 +58,7 @@ export const pratosPorcoes: ItemCardapio[] = [
       pt: "10 unidades de coxinha de pernil gourmet. Muito crocante!",
       en: "A crunchy fried ball stuffed with shank.",
     },
-    preco: "R$ 80,00",
+    preco: "R$ 85,00",
     imagem: "/porcoes/coxinha-pernil.webp",
   },
   {
@@ -70,7 +70,7 @@ export const pratosPorcoes: ItemCardapio[] = [
       pt: "10 unidades de coxinha de frango gourmet. Muito crocante!",
       en: "A crunchy fried ball stuffed with chicken.",
     },
-    preco: "R$ 70,00",
+    preco: "R$ 75,00",
     imagem: "/porcoes/coxinha-de-frango.webp",
   },
   {
@@ -82,7 +82,7 @@ export const pratosPorcoes: ItemCardapio[] = [
       pt: "O famoso dadinho de tapioca com dip (molho) de goiaba com pimenta.",
       en: "Fried tapioca balls. Topping option: spicy guava jelly",
     },
-    preco: "R$ 50,00",
+    preco: "R$ 60,00",
     imagem: "/porcoes/pipoca-coalho.webp",
   },
   {
@@ -95,7 +95,7 @@ export const pratosPorcoes: ItemCardapio[] = [
       en: "A crunchy toasted pork belly, served with manioc.",
     },
 
-    preco: "R$ 80,00",
+    preco: "R$ 85,00",
     imagem: "/porcoes/torresmo-inteiro.webp",
   },
   {
@@ -107,7 +107,7 @@ export const pratosPorcoes: ItemCardapio[] = [
       pt: "Acompanha mandioca temperada na manteiga.",
       en: "A half size of crunchy toasted pork belly, served with manioc.",
     },
-    preco: "R$ 50,00",
+    preco: "R$ 55,00",
     imagem: "/porcoes/torresmo-meia.webp",
   },
   {
@@ -119,7 +119,7 @@ export const pratosPorcoes: ItemCardapio[] = [
       pt: "8 unidades  de maia de fraldinha, acompanhado de vinagrete de cebola e chips de quiabo.",
       en: 'Made with "Fraldinha" beef',
     },
-    preco: "R$ 85,00",
+    preco: "R$ 90,00",
     imagem: "/porcoes/maia.webp",
   },
   {
@@ -131,7 +131,7 @@ export const pratosPorcoes: ItemCardapio[] = [
       pt: "Porção de filé mignon (400 gramas) à parmegiana à palito. Acompanha pão francês.",
       en: "Portion of tenderloin Parmigiana sticks (400 grams). Served with French bread.",
     },
-    preco: "R$ 105,00",
+    preco: "R$ 108,00",
     imagem: "/null.webp",
   },
   {
@@ -143,7 +143,7 @@ export const pratosPorcoes: ItemCardapio[] = [
       pt: "Fraldinha de Angus (450g), acompanha purê de mandioquinha e batata rústica.",
       en: 'Grilled sliced "Fraldinha" beef , fried rustic potatos and mashed celery potatos.',
     },
-    preco: "R$ 100,00",
+    preco: "R$ 110,00",
     imagem: "/porcoes/fraldinha-angus.webp",
   },
   {
@@ -155,7 +155,7 @@ export const pratosPorcoes: ItemCardapio[] = [
       pt: "Filé mignon (450g) regado ao molho de gorgonzola. Acompanha pão francês.",
       en: "Tenderloin beef covered with gorgonzola cheese sauce.",
     },
-    preco: "R$ 110,00",
+    preco: "R$ 115,00",
     imagem: "/porcoes/file-gorgonzola.webp",
   },
   {
@@ -167,7 +167,7 @@ export const pratosPorcoes: ItemCardapio[] = [
       pt: "Filé mignon (450g) regado ao molho canastra. Acompanha pão francês.",
       en: "Tenderloin (450g) topped with Canastra cheese sauce. Served with bread.",
     },
-    preco: "R$ 105,00",
+    preco: "R$ 115,00",
     imagem: "/porcoes/file-canastra.webp",
   },
   {
@@ -179,7 +179,7 @@ export const pratosPorcoes: ItemCardapio[] = [
       pt: "Filé mignon (450g) ao molho de cerveja preta e cebola. Acompanha pão francês.",
       en: "Tenderloin beef covered with dark beer sauce.",
     },
-    preco: "R$ 100,00",
+    preco: "R$ 105,00",
     imagem: "/porcoes/file-cerveja-preta.webp",
   },
   {
@@ -191,7 +191,7 @@ export const pratosPorcoes: ItemCardapio[] = [
       pt: "Picanha em tiras (450g). Acompanha muçarela, tomate, mandioca e batata frita.",
       en: "Grilled rump cover beef, served with tomatos, manioc and fries.",
     },
-    preco: "R$ 130,00",
+    preco: "R$ 150,00",
     imagem: "/porcoes/picanha-geremia.webp",
   },
   {
@@ -203,7 +203,7 @@ export const pratosPorcoes: ItemCardapio[] = [
       pt: "Filé mignon em tiras acebolado (450g) e batata palito (450g).",
       en: "Grilled tenderloin beff with fries",
     },
-    preco: "R$ 95,00",
+    preco: "R$ 100,00",
     imagem: "/porcoes/file-mignon-com-fritas.webp",
   },
   {
@@ -215,7 +215,7 @@ export const pratosPorcoes: ItemCardapio[] = [
       pt: "Filé mignon em tiras acebolado (450g) e batata palito (450g) e catupiry.",
       en: "Tenderloin beef topped with brazilian cream cheese and fries.",
     },
-    preco: "R$ 100,00",
+    preco: "R$ 105,00",
     imagem: "/null.webp",
   },
   {
@@ -227,37 +227,49 @@ export const pratosPorcoes: ItemCardapio[] = [
       pt: "Filé mignon (200g), filé de frango (200g), calabresa (100g) e acompanha batata palito (350g)",
       en: "Slices of tenderloin beff, chicken, calabresa sausage and fries.",
     },
-    preco: "R$ 80,00",
+    preco: "R$ 85,00",
     imagem: "/porcoes/trio.webp",
   },
   {
     titulo: {
-      pt: "Fígado acebolado com jiló",
-      en: "Grilled liver",
+      pt: "Fígado acebolado com jiló - Inteira",
+      en: "Grilled liver - Full Size",
     },
     descricao: {
       pt: "Fígado (450g) , jiló em tiras e anéis de cebola.",
       en: "Grilled liver with jiló (a bitter vegetable from Brasil) and sliced onions.",
     },
-    preco: "R$ 60,00",
+    preco: "R$ 65,00",
     imagem: "/porcoes/figado-com-jilo.webp",
   },
   {
     titulo: {
+      pt: "Fígado acebolado com jiló - Meia",
+      en: "Grilled liver - Half Size",
+    },
+    descricao: {
+      pt: "Fígado (225g) , jiló em tiras e anéis de cebola.",
+      en: "Grilled liver with jiló (a bitter vegetable from Brasil) and sliced onions.",
+    },
+    preco: "R$ 38,00",
+    imagem: "/null.webp",
+  },
+  {
+    titulo: {
       pt: "Isca de tilápia – Inteira",
-      en: "Fish fingers",
+      en: "Fish fingers - Full Size",
     },
     descricao: {
       pt: "Filé de tilápia (500 gramas). Acompanha molho tártaro.",
       en: "Fish fingers made with Tilápia fish.",
     },
-    preco: "R$ 75,00",
+    preco: "R$ 78,00",
     imagem: "/porcoes/isca-tilapia-inteira.webp",
   },
   {
     titulo: {
       pt: "Isca de tilápia – Meia",
-      en: "Fish fingers - Half size",
+      en: "Fish fingers - Half Size",
     },
     descricao: {
       pt: "Filé de tilápia (250 gramas). Acompanha molho tártaro.",
@@ -269,7 +281,7 @@ export const pratosPorcoes: ItemCardapio[] = [
   {
     titulo: {
       pt: "Isca de frango – Inteira",
-      en: "Chicken fingers",
+      en: "Chicken fingers - Full Size",
     },
     descricao: {
       pt: "Filé de frango (500 gramas). Acompanha molho tártaro.",
@@ -281,7 +293,7 @@ export const pratosPorcoes: ItemCardapio[] = [
   {
     titulo: {
       pt: "Isca de frango – Meia",
-      en: "Chicken fingers (half size)",
+      en: "Chicken fingers - Half Size)",
     },
     descricao: {
       pt: "Filé de frango (250 gramas). Acompanha molho tártaro.",
@@ -299,7 +311,7 @@ export const pratosPorcoes: ItemCardapio[] = [
       pt: "300g de picanha acebolada acompanhada de tomate, mandioca temperada, farofinha de soja.",
       en: "Rump cover steak , tomatoes, cooked manioc and manioc flour toasted (farofa)",
     },
-    preco: "R$ 85,00",
+    preco: "R$ 90,00",
     imagem: "/porcoes/medalhao-picanha.webp",
   },
   {
@@ -311,7 +323,7 @@ export const pratosPorcoes: ItemCardapio[] = [
       pt: "",
       en: "",
     },
-    preco: "R$ 55,00",
+    preco: "R$ 65,00",
     imagem: "/porcoes/bolinho-mandioca-com-carne-seca.webp",
   },
   {
@@ -323,7 +335,7 @@ export const pratosPorcoes: ItemCardapio[] = [
       pt: "",
       en: "",
     },
-    preco: "R$ 45,00",
+    preco: "R$ 50,00",
     imagem: "/porcoes/bolinho-arroz.webp",
   },
   {
@@ -335,7 +347,7 @@ export const pratosPorcoes: ItemCardapio[] = [
       pt: "Batata palito 7mm (450g)",
       en: "",
     },
-    preco: "R$ 35,00",
+    preco: "R$ 36,00",
     imagem: "/porcoes/batata-palito.webp",
   },
   {
@@ -347,8 +359,20 @@ export const pratosPorcoes: ItemCardapio[] = [
       pt: "450 gramas de batata palito 7mm.",
       en: "",
     },
-    preco: "R$ 50,00",
+    preco: "R$ 52,00",
     imagem: "/porcoes/batata-palito-com-queijo-e-bacon.webp",
+  },
+  {
+    titulo: {
+      pt: "Batata chips do André",
+      en: "André's potato chips",
+    },
+    descricao: {
+      pt: "",
+      en: "",
+    },
+    preco: "R$ 38,00",
+    imagem: "/null.webp",
   },
   {
     titulo: {
@@ -359,7 +383,7 @@ export const pratosPorcoes: ItemCardapio[] = [
       pt: "Moelinha ao molho de tomate.",
       en: "Chicken Guizzards in a tomatoes sauce. Served with roll.",
     },
-    preco: "R$ 55,00",
+    preco: "R$ 70,00",
     imagem: "/porcoes/moelinha.webp",
   },
   {
@@ -371,20 +395,32 @@ export const pratosPorcoes: ItemCardapio[] = [
       pt: "Frango a passarinho (1kg) com flocos de alho e cebola.",
       en: "A kind of Brazilian fried chicken.",
     },
-    preco: "R$ 60,00",
+    preco: "R$ 65,00",
     imagem: "/porcoes/frango-a-passarinho.webp",
   },
   {
     titulo: {
-      pt: "Ceviche de tilápia",
-      en: "Ceviche",
+      pt: "Ceviche de tilápia - Inteira",
+      en: "Ceviche - Full Size",
     },
     descricao: {
       pt: "Ceviche de tilápia (500g).",
       en: "Brazilian ceviche made with raw Tilapia fish dipped in lemon sauce",
     },
-    preco: "R$ 65,00",
+    preco: "R$ 75,00",
     imagem: "/porcoes/ceviche-tilapia.webp",
+  },
+  {
+    titulo: {
+      pt: "Ceviche de tilápia - Meia",
+      en: "Ceviche - Half Size",
+    },
+    descricao: {
+      pt: "Ceviche de tilápia (250g).",
+      en: "Brazilian ceviche made with raw Tilapia fish dipped in lemon sauce",
+    },
+    preco: "R$ 40,00",
+    imagem: "/null.webp",
   },
 ];
 
@@ -398,7 +434,7 @@ export const pratosPrincipais: ItemCardapio[] = [
       pt: "Feijoada leve, saborosa e acompanha arroz branco, couve, farofa na manteiga. SOMENTE AOS SÁBADOS.",
       en: "Traditional brazilian black beans with broth, cooked with cuts of pork and calabresa sausage. Served with rice, toasted manioc flour, green cabage and spicy sauce. Just taste it. (Only saturdays)",
     },
-    preco: "R$ 110,00",
+    preco: "R$ 120,00",
     imagem: "/pratos/feijoada.webp",
   },
   {
@@ -410,7 +446,7 @@ export const pratosPrincipais: ItemCardapio[] = [
       pt: "Feijoada leve, saborosa e acompanha arroz branco, couve, farofa na manteiga. SOMENTE AOS SÁBADOS.",
       en: "Traditional brazilian black beans with broth, cooked with cuts of pork and calabresa sausage. Served with rice, toasted manioc flour, green cabage and spicy sauce. Just taste it. (Only saturdays)",
     },
-    preco: "R$ 65,00",
+    preco: "R$ 70,00",
     imagem: "/pratos/feijoada.webp",
   },
   {
@@ -470,7 +506,7 @@ export const pratosPrincipais: ItemCardapio[] = [
       pt: "Filé mignon (400 gramas) ao molho de tomate rústico com arroz branco e fios de batata da casa.",
       en: "Breaded Tenderloin steak topped with mozarella cheese and tomatoes sauce. Served with fries.",
     },
-    preco: "R$ 120,00",
+    preco: "R$ 140,00",
     imagem: "/pratos/parmegiana-dupla.webp",
   },
   {
@@ -482,7 +518,7 @@ export const pratosPrincipais: ItemCardapio[] = [
       pt: "Filé mignon (200 gramas) ao molho de tomate rústico com arroz branco e fios de batata da casa.",
       en: "Breaded Tenderloin steak topped with mozarella cheese and tomatoes sauce. Served with fries.",
     },
-    preco: "R$ 68,00",
+    preco: "R$ 75,00",
     imagem: "/pratos/parmegiana-individual.webp",
   },
   {
@@ -506,8 +542,32 @@ export const pratosPrincipais: ItemCardapio[] = [
       pt: "Filé mignon (200 gramas), regado ao molho de queijo canastra. Acompanha arroz branco e batata palito.",
       en: "Slices of grilled tenderloin beef dipped in a sauce made with a famous brazilian cheese produced in Canastra region.",
     },
-    preco: "R$ 68,00",
+    preco: "R$ 70,00",
     imagem: "/pratos/file-canastra-individual.webp",
+  },
+  {
+    titulo: {
+      pt: "Filé mignon ao molho de mostarda- Duplo",
+      en: "Tenderloin with mustard sauce - Double",
+    },
+    descricao: {
+      pt: "",
+      en: "",
+    },
+    preco: "R$ 120,00",
+    imagem: "/null.webp",
+  },
+  {
+    titulo: {
+      pt: "Filé mignon ao molho de mostarda – Individual",
+      en: "Tenderloin with mustard sauce - Single",
+    },
+    descricao: {
+      pt: "",
+      en: "",
+    },
+    preco: "R$ 70,00",
+    imagem: "/null.webp",
   },
   {
     titulo: {
@@ -542,7 +602,7 @@ export const pratosPrincipais: ItemCardapio[] = [
       pt: "Picanha (400 gramas), acompanhado de arroz, fios de couve na manteiga e tropeirinho.",
       en: 'Rump cover steak, rice, "tropeiro" and braised green cabage.',
     },
-    preco: "R$ 135,00",
+    preco: "R$ 145,00",
     imagem: "/null.webp",
   },
   {
@@ -554,13 +614,13 @@ export const pratosPrincipais: ItemCardapio[] = [
       pt: "Picanha, acompanhado de arroz, fios de couve na manteiga e tropeirinho.",
       en: 'Rump cover steak, rice, "tropeiro" and braised green cabage.',
     },
-    preco: "R$ 80,00",
+    preco: "R$ 85,00",
     imagem: "/pratos/picanha-a-mineira-individual.webp",
   },
   {
     titulo: {
       pt: "Medalhão de filé do Gerê",
-      en: "Geremia's tenderloin - Single",
+      en: "Geremia's tenderloin",
     },
     descricao: {
       pt: "Filé mignon (200g), acompanha farofa de amêndoa laminada e purê de banana da terra.",
@@ -578,7 +638,7 @@ export const pratosPrincipais: ItemCardapio[] = [
       pt: "Tilápia grelhada (500g) na manteiga com cenoura, brócolis e couve-flor. Acompanha arroz branco.",
       en: "Grilled fish, carrot, brocolli and cauliflower.",
     },
-    preco: "R$ 110,00",
+    preco: "R$ 115,00",
     imagem: "/pratos/tilapia-grelhada.webp",
   },
   {
@@ -590,7 +650,7 @@ export const pratosPrincipais: ItemCardapio[] = [
       pt: "Filé mignon (500g) na manteiga com cenoura, brócolis e couve-flor. Acompanha arroz branco.",
       en: "Grilled tenderloin, carrot, brocolli and cauliflower.",
     },
-    preco: "R$ 120,00",
+    preco: "R$ 125,00",
     imagem: "/null.webp",
   },
   {
@@ -602,7 +662,7 @@ export const pratosPrincipais: ItemCardapio[] = [
       pt: "Arroz com bacalhau, azeitona preta, brócolis e fios de batata da casa.",
       en: "Rice with codfish, black olives, broccoli, and the house’s signature potato strings.",
     },
-    preco: "R$ 120,00",
+    preco: "R$ 125,00",
     imagem: "/pratos/arroz-com-bacalhau.webp",
   },
   {
@@ -614,7 +674,7 @@ export const pratosPrincipais: ItemCardapio[] = [
       pt: "Arroz com bacalhau, azeitona preta, brócolis e fios de batata da casa.",
       en: "Rice with codfish, black olives, broccoli, and the house’s signature potato strings.",
     },
-    preco: "R$ 70,00",
+    preco: "R$ 75,00",
     imagem: "/null.webp",
   },
   {
@@ -638,7 +698,7 @@ export const pratosPrincipais: ItemCardapio[] = [
       pt: "Filé de frango (120 grs), arroz, tomate e batata frita.",
       en: "Chicken filet, rice, tomatoes, fries",
     },
-    preco: "R$ 30,00",
+    preco: "R$ 32,00",
     imagem: "/null.webp",
   },
   {
@@ -650,7 +710,7 @@ export const pratosPrincipais: ItemCardapio[] = [
       pt: "Prato proteico. Omelete, queijo e cebola acompanhado de filé mignon (200grs).",
       en: "Omelet stuffed with cheese and onion with tenderloin steak",
     },
-    preco: "R$ 50,00",
+    preco: "R$ 60,00",
     imagem: "/pratos/omelete-e-file-mignon.webp",
   },
 ];
@@ -701,7 +761,7 @@ export const paraAcompanhar: ItemCardapio[] = [
       pt: "",
       en: "contain milk",
     },
-    preco: "R$ 12,00",
+    preco: "R$ 15,00",
     imagem: "/null.webp",
   },
   {
@@ -737,7 +797,7 @@ export const paraAcompanhar: ItemCardapio[] = [
       pt: "",
       en: "",
     },
-    preco: "R$ 14,00",
+    preco: "R$ 15,00",
     imagem: "/acompanhamento/vinagrete.webp",
   },
   {
@@ -749,7 +809,7 @@ export const paraAcompanhar: ItemCardapio[] = [
       pt: "",
       en: "",
     },
-    preco: "R$ 6,00",
+    preco: "R$ 7,00",
     imagem: "/acompanhamento/molhinho-de-alho.webp",
   },
   {
@@ -761,7 +821,7 @@ export const paraAcompanhar: ItemCardapio[] = [
       pt: "",
       en: "",
     },
-    preco: "R$ 6,00",
+    preco: "R$ 7,00",
     imagem: "/acompanhamento/farofinha.webp",
   },
 ];
@@ -789,8 +849,8 @@ export const saladinha: ItemCardapio[] = [
       en: "Jiló (a bitter vegetable from brazil), raw onions seasoned with lime.",
     },
     preco: [
-      { pt: "Inteira: R$ 30,00", en: "Full Size: R$ 30.00" },
-      { pt: "Meia: R$ 18,00", en: "Half Size: R$ 18.00" },
+      { pt: "Inteira: R$ 30,00", en: "Full Size: R$ 30,00" },
+      { pt: "Meia: R$ 18,00", en: "Half Size: R$ 18,00" },
     ],
     imagem: "/saladinha/saladinha-de-jilo.webp",
   },
@@ -839,7 +899,7 @@ export const saladinha: ItemCardapio[] = [
       pt: "",
       en: "",
     },
-    preco: "R$ 25,00",
+    preco: "R$ 28,00",
     imagem: "/saladinha/tomate-com-queijo.webp",
   },
   {
@@ -863,7 +923,7 @@ export const saladinha: ItemCardapio[] = [
       pt: "",
       en: "",
     },
-    preco: "R$ 46,00",
+    preco: "R$ 48,00",
     imagem: "/saladinha/salame-e-palmito.webp",
   },
   {
@@ -887,7 +947,10 @@ export const saladinha: ItemCardapio[] = [
       pt: "Salada de alface, rúcula, tomate, queijo muçarela,  palmito e cebola.",
       en: "Lettuce, arugula, tomato, mozzarella cheese, heart of palm, and onion salad.",
     },
-    preco: "R$ 40,00",
+    preco: [
+      { pt: "Inteira: R$ 50,00", en: "Full Size: R$ 50,00" },
+      { pt: "Meia: R$ 30,00", en: "Half Size: R$ 30,00" },
+    ],
     imagem: "/saladinha/salada-da-casa.webp",
   },
   {
@@ -914,7 +977,7 @@ export const vegetarianos: ItemCardapio[] = [
       pt: "Ao molho de tomate rústico acompanhado de queijo parmesão.",
       en: "With rustic tomato sauce and Parmesan cheese.",
     },
-    preco: "R$ 30,00",
+    preco: "R$ 35,00",
     imagem: "/vegetarianos/espaguete-de-abobrinha.webp",
   },
   {
@@ -927,8 +990,8 @@ export const vegetarianos: ItemCardapio[] = [
       en: "Jiló (a bitter vegetable from brazil), raw onions seasoned with lime.",
     },
     preco: [
-      { pt: "Inteira: R$ 30,00", en: "Full Size: R$ 30.00" },
-      { pt: "Meia: R$ 18,00", en: "Half Size: R$ 18.00" },
+      { pt: "Inteira: R$ 30,00", en: "Full Size: R$ 30,00" },
+      { pt: "Meia: R$ 18,00", en: "Half Size: R$ 18,00" },
     ],
     imagem: "/saladinha/saladinha-de-jilo.webp",
   },
@@ -953,7 +1016,7 @@ export const vegetarianos: ItemCardapio[] = [
       pt: "",
       en: "",
     },
-    preco: "R$ 25,00",
+    preco: "R$ 28,00",
     imagem: "/saladinha/tomate-com-queijo.webp",
   },
   {
@@ -977,7 +1040,10 @@ export const vegetarianos: ItemCardapio[] = [
       pt: "Salada de alface, rúcula, tomate, queijo muçarela,  palmito e cebola.",
       en: "Lettuce, arugula, tomato, mozzarella cheese, heart of palm, and onion salad.",
     },
-    preco: "R$ 40,00",
+    preco: [
+      { pt: "Inteira: R$ 50,00", en: "Full Size: R$ 50,00" },
+      { pt: "Meia: R$ 30,00", en: "Half Size: R$ 30,00" },
+    ],
     imagem: "/saladinha/salada-da-casa.webp",
   },
   {
@@ -1001,7 +1067,7 @@ export const vegetarianos: ItemCardapio[] = [
       pt: "Omelete recheado com queijo e cebola.",
       en: "Omelet stuffed with cheese and onion",
     },
-    preco: "R$ 20,00",
+    preco: "R$ 25,00",
     imagem: "/vegetarianos/omelete.webp",
   },
   {
@@ -1013,7 +1079,7 @@ export const vegetarianos: ItemCardapio[] = [
       pt: "O famoso dadinho de tapioca com dip (molho) de goiaba com pimenta.",
       en: "Fried tapioca balls. Topping option: spicy guava jelly",
     },
-    preco: "R$ 50,00",
+    preco: "R$ 60,00",
     imagem: "/porcoes/pipoca-coalho.webp",
   },
 ];
@@ -1028,7 +1094,7 @@ export const sanduiche: ItemCardapio[] = [
       pt: "Sanduíche com filé mignon, queijo, cebola e tomate.",
       en: "Roll, slices of griled tenderloin, tomato, mozarella cheese, onions.",
     },
-    preco: "R$ 40,00",
+    preco: "R$ 45,00",
     imagem: "/sandubao/sanduiche-de-file-mignon.webp",
   },
 ];
@@ -1118,7 +1184,7 @@ export const sobremesas: ItemCardapio[] = [
       pt: "1 bola.",
       en: "",
     },
-    preco: "R$ 18,00",
+    preco: "R$ 19,00",
     imagem: "/null.webp",
   },
   {
@@ -1130,7 +1196,7 @@ export const sobremesas: ItemCardapio[] = [
       pt: "",
       en: "",
     },
-    preco: "R$ 6,00",
+    preco: "R$ 7,00",
     imagem: "/sobremesas/cafe-expresso.webp",
   },
   {
@@ -1142,7 +1208,7 @@ export const sobremesas: ItemCardapio[] = [
       pt: "",
       en: "",
     },
-    preco: "R$ 6,00",
+    preco: "R$ 7,00",
     imagem: "/sobremesas/cafe-expresso-descafeinado.webp",
   },
 ];

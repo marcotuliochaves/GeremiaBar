@@ -53,8 +53,8 @@ export default function Home() {
             />
             <div className="absolute bottom-10 left-1/2 -translate-x-1/2 text-center z-10 px-4">
               <h2
-                className="text-2xl font-bold absolute -bottom-10 left-1/2 -translate-x-1/2 text-white drop-shadow-md px-4 py-2"
-                style={{ backgroundColor: "#2E4024" }}
+                className="text-2xl font-bold absolute -bottom-10 left-1/2 -translate-x-1/2 bg-orange-500 text-white drop-shadow-md px-4 py-2"
+                /* Backup verde "#2E4024" */
               >
                 {text.menu}
               </h2>

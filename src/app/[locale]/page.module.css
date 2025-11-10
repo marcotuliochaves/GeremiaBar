@@ -6,7 +6,8 @@
   --button-primary-hover: #383838;
   --button-secondary-hover: #f2f2f2;
 
-  background-color: #2e4024;
+  /*background-color: #2e4024; */
+  background-color: #494d52;
   margin-bottom: -50px;
   display: grid;
   grid-template-rows: 20px 1fr 20px;

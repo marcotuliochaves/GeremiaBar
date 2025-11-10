@@ -22,7 +22,7 @@ export const chopps: ItemCardapio[] = [
       pt: "Chopp fresco, aroma neutro. Para quem prefere chopp com teor de amargor menos acentuado.",
       en: "",
     },
-    preco: "R$ 9,90",
+    preco: "R$ 10,50",
     imagem: "/chopps/chopp-antarctica.webp",
   },
   {
@@ -46,7 +46,7 @@ export const chopps: ItemCardapio[] = [
       pt: "Grande novidade! Chopp Antarctica, com 3 dedos de creme black na tulipa Gerê.",
       en: "Antarctica beer with three fingers of black beer.",
     },
-    preco: "R$ 10,90",
+    preco: "R$ 11,50",
     imagem: "/chopps/chopp-ferrugem.webp",
   },
   {
@@ -58,7 +58,7 @@ export const chopps: ItemCardapio[] = [
       pt: "",
       en: "",
     },
-    preco: "R$ 9,90",
+    preco: "R$ 10,50",
     imagem: "/chopps/chopp-amstel.webp",
   },
 ];
@@ -73,7 +73,7 @@ export const cervejas600: ItemCardapio[] = [
       pt: "",
       en: "",
     },
-    preco: "R$ 19,00",
+    preco: "R$ 19,50",
     imagem: "/null.webp",
   },
   {
@@ -85,7 +85,7 @@ export const cervejas600: ItemCardapio[] = [
       pt: "",
       en: "",
     },
-    preco: "R$ 15,00",
+    preco: "R$ 15,50",
     imagem: "/null.webp",
   },
   {
@@ -109,7 +109,7 @@ export const cervejas600: ItemCardapio[] = [
       pt: "",
       en: "",
     },
-    preco: "R$ 23,00",
+    preco: "R$ 24,00",
     imagem: "/null.webp",
   },
   {
@@ -136,7 +136,7 @@ export const longNecks: ItemCardapio[] = [
       pt: "",
       en: "",
     },
-    preco: "R$ 10,00",
+    preco: "R$ 11,00",
     imagem: "/longnecks/amstel-ultra.webp",
   },
   {
@@ -148,7 +148,7 @@ export const longNecks: ItemCardapio[] = [
       pt: "",
       en: "",
     },
-    preco: "R$ 23,00",
+    preco: "R$ 24,00",
     imagem: "/longnecks/blue-moon.webp",
   },
   {
@@ -199,18 +199,6 @@ export const longNecks: ItemCardapio[] = [
     preco: "R$ 14,00",
     imagem: "/longnecks/heineken-zero-long-neck.webp",
   },
-  {
-    titulo: {
-      pt: "Corona zero",
-      en: "Corona 0.0",
-    },
-    descricao: {
-      pt: "",
-      en: "",
-    },
-    preco: "R$ 14,00",
-    imagem: "/null.webp",
-  },
 ];
 
 export const drinks: ItemCardapio[] = [
@@ -224,9 +212,9 @@ export const drinks: ItemCardapio[] = [
       en: "Carmen Citrus is a tribute to our special chef Carminha. This light, fruity, and aromatic drink was created in honor of International Women’s Day. It features notes of vanilla, strawberry, and Sicilian lemon.",
     },
     preco: [
-      { pt: "Cachaça: R$ 23,00", en: "Cachaça: R$ 23.00" },
-      { pt: "Vodka nacional: R$ 26,00", en: "National Vodka: R$ 26.00" },
-      { pt: "Vodka importada:  R$ 31,00", en: "Imported Vodka: R$ 31.00" },
+      { pt: "Cachaça: R$ 23,00", en: "Cachaça: R$ 23,00" },
+      { pt: "Vodka nacional: R$ 26,00", en: "National Vodka: R$ 26,00" },
+      { pt: "Vodka importada:  R$ 31,00", en: "Imported Vodka: R$ 31,00" },
     ],
     imagem: "/drinks/carmem-citrus.webp",
   },
@@ -240,9 +228,9 @@ export const drinks: ItemCardapio[] = [
       en: "For those who want to celebrate with a citrusy and fruity drink, Juju Tropical was added to the menu as a tribute to our dear Judith. A mix of pitaya, passion fruit, and mint.",
     },
     preco: [
-      { pt: "Cachaça: R$ 23,00", en: "Cachaça: R$ 23.00" },
-      { pt: "Vodka nacional: R$ 26,00", en: "National Vodka: R$ 26.00" },
-      { pt: "Vodka importada:  R$ 31,00", en: "Imported Vodka: R$ 31.00" },
+      { pt: "Cachaça: R$ 23,00", en: "Cachaça: R$ 23,00" },
+      { pt: "Vodka nacional: R$ 26,00", en: "National Vodka: R$ 26,00" },
+      { pt: "Vodka importada:  R$ 31,00", en: "Imported Vodka: R$ 31,00" },
     ],
     imagem: "/drinks/juju-tropical.webp",
   },
@@ -268,8 +256,8 @@ export const drinks: ItemCardapio[] = [
       en: "Gin, Sicilian lemon, Angostura Bitter, sparkling water, and sugar syrup.",
     },
     preco: [
-      { pt: "Gin nacional: R$ 29,00", en: "National Gin: R$ 29.00" },
-      { pt: "Gin importado: R$ 34,00", en: "Imported Gin: R$ 34.00" },
+      { pt: "Gin nacional: R$ 29,00", en: "National Gin: R$ 29,00" },
+      { pt: "Gin importado: R$ 34,00", en: "Imported Gin: R$ 34,00" },
     ],
     imagem: "/drinks/fitzgeria.webp",
   },
@@ -295,9 +283,9 @@ export const drinks: ItemCardapio[] = [
       en: "Brown sugar syrup and Tahiti lime.",
     },
     preco: [
-      { pt: "Cachaça: R$ 25,00", en: "Cachaça: R$ 25.00" },
-      { pt: "Vodka nacional: R$ 28,00", en: "National Vodka: R$ 28.00" },
-      { pt: "Vodka importada:  R$ 33,00", en: "Imported Vodka: R$ 33.00" },
+      { pt: "Cachaça: R$ 25,00", en: "Cachaça: R$ 25,00" },
+      { pt: "Vodka nacional: R$ 28,00", en: "National Vodka: R$ 28,00" },
+      { pt: "Vodka importada:  R$ 33,00", en: "Imported Vodka: R$ 33,00" },
     ],
     imagem: "/drinks/caipi-gere.webp",
   },
@@ -311,8 +299,8 @@ export const drinks: ItemCardapio[] = [
       en: "Our tropical Geremia — a refreshing drink made with a shot of Beefeater gin, passion fruit, and Red Bull Tropical energy drink.",
     },
     preco: [
-      { pt: "Gin nacional: R$ 34,00", en: "National Gin: R$ 34.00" },
-      { pt: "Gin importado: R$ 39,00", en: "Imported Gin: R$ 39.00" },
+      { pt: "Gin nacional: R$ 34,00", en: "National Gin: R$ 34,00" },
+      { pt: "Gin importado: R$ 40,00", en: "Imported Gin: R$ 40,00" },
     ],
     imagem: "/drinks/gere-tropical.webp",
   },
@@ -326,9 +314,9 @@ export const drinks: ItemCardapio[] = [
       en: "Drink with strawberry, passion fruit, and tangerine.",
     },
     preco: [
-      { pt: "Cachaça: R$ 26,00", en: "Cachaça: R$ 26.00" },
-      { pt: "Vodka nacional: R$ 29,00", en: "National Vodka: R$ 29.00" },
-      { pt: "Vodka importada:  R$ 34,00", en: "Imported Vodka: R$ 34.00" },
+      { pt: "Cachaça: R$ 26,00", en: "Cachaça: R$ 26,00" },
+      { pt: "Vodka nacional: R$ 29,00", en: "National Vodka: R$ 29,00" },
+      { pt: "Vodka importada:  R$ 34,00", en: "Imported Vodka: R$ 34,00" },
     ],
     imagem: "/drinks/caraiva.webp",
   },
@@ -341,7 +329,7 @@ export const drinks: ItemCardapio[] = [
       pt: "Maracujack, será um queridinho do Gerê. Uma mistura de dose de Jack Daniel's e polpa de maracujá.",
       en: "A future favorite at Gerê — a mix of Jack Daniel’s whiskey and passion fruit pulp.",
     },
-    preco: "R$ 29,00",
+    preco: "R$ 40,00",
     imagem: "/drinks/maracujack.webp",
   },
   {
@@ -365,7 +353,7 @@ export const drinks: ItemCardapio[] = [
       pt: "Aperol, espumante brut, suco de laranja, limão siciliano e xarope de morango.",
       en: "Aperol, brut sparkling wine, orange juice, Sicilian lemon, and strawberry syrup.",
     },
-    preco: "R$ 29,00",
+    preco: "R$ 30,00",
     imagem: "/drinks/aperol-rose.webp",
   },
   {
@@ -378,8 +366,8 @@ export const drinks: ItemCardapio[] = [
       en: "The classic Negroni — a timeless favorite that needs no introduction.",
     },
     preco: [
-      { pt: "Gin nacional: R$ 29,00", en: "National Gin: R$ 29.00" },
-      { pt: "Gin importado: R$ 34,00", en: "Imported Gin: R$ 34.00" },
+      { pt: "Gin nacional: R$ 29,00", en: "National Gin: R$ 29,00" },
+      { pt: "Gin importado: R$ 34,00", en: "Imported Gin: R$ 34,00" },
     ],
     imagem: "/drinks/negroni.webp",
   },
@@ -393,8 +381,8 @@ export const drinks: ItemCardapio[] = [
       en: "Vodka with ginger and lemon syrup and foam.",
     },
     preco: [
-      { pt: "Vodka nacional: R$ 29,00", en: "National Vodka: R$ 29.00" },
-      { pt: "Vodka importado: R$ 34,00", en: "Imported Vodka: R$ 34.00" },
+      { pt: "Vodka nacional: R$ 29,00", en: "National Vodka: R$ 29,00" },
+      { pt: "Vodka importado: R$ 34,00", en: "Imported Vodka: R$ 34,00" },
     ],
     imagem: "/drinks/moscow-mule.webp",
   },
@@ -408,8 +396,8 @@ export const drinks: ItemCardapio[] = [
       en: "",
     },
     preco: [
-      { pt: "Gin nacional: R$ 29,00", en: "National Gin: R$ 29.00" },
-      { pt: "Gin importado: R$ 34,00", en: "Imported Gin: R$ 34.00" },
+      { pt: "Gin nacional: R$ 29,00", en: "National Gin: R$ 29,00" },
+      { pt: "Gin importado: R$ 34,00", en: "Imported Gin: R$ 34,00" },
     ],
     imagem: "/drinks/gin-com-morango.webp",
   },
@@ -423,8 +411,8 @@ export const drinks: ItemCardapio[] = [
       en: "Gin, tonic, lemon, honey",
     },
     preco: [
-      { pt: "Gin nacional: R$ 29,00", en: "National Gin: R$ 29.00" },
-      { pt: "Gin importado: R$ 34,00", en: "Imported Gin: R$ 34.00" },
+      { pt: "Gin nacional: R$ 29,00", en: "National Gin: R$ 29,00" },
+      { pt: "Gin importado: R$ 34,00", en: "Imported Gin: R$ 34,00" },
     ],
     imagem: "/drinks/sicilian-bee.webp",
   },
@@ -437,20 +425,8 @@ export const drinks: ItemCardapio[] = [
       pt: "",
       en: "",
     },
-    preco: "R$ 29,00",
+    preco: "R$ 30,00",
     imagem: "/drinks/aperol-spritz.webp",
-  },
-  {
-    titulo: {
-      pt: "Cozumel",
-      en: "Cozumel",
-    },
-    descricao: {
-      pt: "",
-      en: "",
-    },
-    preco: "R$ 14,00",
-    imagem: "/null.webp",
   },
   {
     titulo: {
@@ -461,20 +437,8 @@ export const drinks: ItemCardapio[] = [
       pt: "",
       en: "",
     },
-    preco: "R$ 17,00",
+    preco: "R$ 18,00",
     imagem: "/null.webp",
-  },
-  {
-    titulo: {
-      pt: "Cozumel Corona zero",
-      en: "Cozumel Corona 0.0",
-    },
-    descricao: {
-      pt: "",
-      en: "",
-    },
-    preco: "R$ 17,00",
-    imagem: "/drinks/cozumel-corona-zero.webp",
   },
   {
     titulo: {
@@ -485,7 +449,7 @@ export const drinks: ItemCardapio[] = [
       pt: "",
       en: "",
     },
-    preco: "R$ 17,00",
+    preco: "R$ 18,00",
     imagem: "/null.webp",
   },
   {
@@ -497,8 +461,20 @@ export const drinks: ItemCardapio[] = [
       pt: "",
       en: "",
     },
-    preco: "R$ 17,00",
+    preco: "R$ 18,00",
     imagem: "/drinks/cozumel-heineken.webp",
+  },
+  {
+    titulo: {
+      pt: "Cozumel Amstel",
+      en: "Cozumel Amstel",
+    },
+    descricao: {
+      pt: "",
+      en: "",
+    },
+    preco: "R$ 15,00",
+    imagem: "/null.webp",
   },
   {
     titulo: {
@@ -509,7 +485,7 @@ export const drinks: ItemCardapio[] = [
       pt: "Sem glúten.",
       en: "Gluten free",
     },
-    preco: "R$ 14,00",
+    preco: "R$ 13,00",
     imagem: "/drinks/cozumel-amstel-ultra.webp",
   },
   {
@@ -577,6 +553,113 @@ export const drinks: ItemCardapio[] = [
 export const caips: ItemCardapio[] = [
   {
     titulo: {
+      pt: "Caipi Gerê",
+      en: "Caipi Gerê",
+    },
+    descricao: {
+      pt: "Xarope de rapadura, limão taiti.",
+      en: "Brown sugar syrup and Tahiti lime.",
+    },
+    preco: [
+      { pt: "Cachaça: R$ 25,00", en: "Cachaça: R$ 25.00" },
+      { pt: "Vodka nacional: R$ 28,00", en: "National Vodka: R$ 28,00" },
+      { pt: "Vodka importada:  R$ 33,00", en: "Imported Vodka: R$ 33,00" },
+    ],
+    imagem: "/drinks/caipi-gere.webp",
+  },
+  {
+    titulo: {
+      pt: "Gerê tropical",
+      en: "Gerê Tropical",
+    },
+    descricao: {
+      pt: "Nosso Geremia tropical, é uma bebida refrescante com dose de gin Beefeater, maracujá e energético Red Bull tropical.",
+      en: "Our tropical Geremia — a refreshing drink made with a shot of Beefeater gin, passion fruit, and Red Bull Tropical energy drink.",
+    },
+    preco: [
+      { pt: "Gin nacional: R$ 34,00", en: "National Gin: R$ 34,00" },
+      { pt: "Gin importado: R$ 40,00", en: "Imported Gin: R$ 40,00" },
+    ],
+    imagem: "/drinks/gere-tropical.webp",
+  },
+  {
+    titulo: {
+      pt: "Caraíva",
+      en: "Caraíva",
+    },
+    descricao: {
+      pt: "Drink com morango, maracujá e tangerina.",
+      en: "Drink with strawberry, passion fruit, and tangerine.",
+    },
+    preco: [
+      { pt: "Cachaça: R$ 26,00", en: "Cachaça: R$ 26.00" },
+      { pt: "Vodka nacional: R$ 29,00", en: "National Vodka: R$ 29,00" },
+      { pt: "Vodka importada:  R$ 34,00", en: "Imported Vodka: R$ 34,00" },
+    ],
+    imagem: "/drinks/caraiva.webp",
+  },
+  {
+    titulo: {
+      pt: "Negroni",
+      en: "Negroni",
+    },
+    descricao: {
+      pt: "O clássico Negroni que dispensa comentários.",
+      en: "The classic Negroni — a timeless favorite that needs no introduction.",
+    },
+    preco: [
+      { pt: "Gin nacional: R$ 29,00", en: "National Gin: R$ 29,00" },
+      { pt: "Gin importado: R$ 34,00", en: "Imported Gin: R$ 34,00" },
+    ],
+    imagem: "/drinks/negroni.webp",
+  },
+  {
+    titulo: {
+      pt: "Moscow Mule",
+      en: "Moscow Mule",
+    },
+    descricao: {
+      pt: "Vodka, espuma e xarope de gengibre e limão.",
+      en: "Vodka with ginger and lemon syrup and foam.",
+    },
+    preco: [
+      { pt: "Vodka nacional: R$ 29,00", en: "National Vodka: R$ 29,00" },
+      { pt: "Vodka importado: R$ 34,00", en: "Imported Vodka: R$ 34,00" },
+    ],
+    imagem: "/drinks/moscow-mule.webp",
+  },
+  {
+    titulo: {
+      pt: "Gin tonica com morango",
+      en: "Strawberry Gin tonic",
+    },
+    descricao: {
+      pt: "",
+      en: "",
+    },
+    preco: [
+      { pt: "Gin nacional: R$ 29,00", en: "National Gin: R$ 29,00" },
+      { pt: "Gin importado: R$ 34,00", en: "Imported Gin: R$ 34,00" },
+    ],
+    imagem: "/drinks/gin-com-morango.webp",
+  },
+  {
+    titulo: {
+      pt: "Sicilian bee",
+      en: "Sicilian Bee",
+    },
+    descricao: {
+      pt: "Gin, tonica, limão siciliano e mel.",
+      en: "Gin, tonic, lemon, honey",
+    },
+    preco: [
+      { pt: "Gin nacional: R$ 29,00", en: "National Gin: R$ 29,00" },
+      { pt: "Gin importado: R$ 34,00", en: "Imported Gin: R$ 34,00" },
+    ],
+    imagem: "/drinks/sicilian-bee.webp",
+  },
+  {
+    titulo: {
       pt: "Caip Seleta",
       en: "Caip Seleta",
     },
@@ -585,19 +668,19 @@ export const caips: ItemCardapio[] = [
       en: "",
     },
     preco: [
-      { pt: "Limão R$ 20,00", en: "Lime R$ 20.00" },
-      { pt: "Morango R$ 20,00", en: "Strawberry R$ 20.00" },
-      { pt: "Abacaxi R$ 20,00", en: "Pineapple R$ 20.00" },
-      { pt: "Kiwi R$ 23,00", en: "Kiwi R$ 23.00" },
+      { pt: "Limão R$ 20,00", en: "Lime R$ 20,00" },
+      { pt: "Morango R$ 20,00", en: "Strawberry R$ 20,00" },
+      { pt: "Abacaxi R$ 20,00", en: "Pineapple R$ 20,00" },
+      { pt: "Kiwi R$ 23,00", en: "Kiwi R$ 23,00" },
       {
         pt: "Morango e maracujá R$ 25,00",
-        en: "Strawberry and Passion Fruit R$ 25.00",
+        en: "Strawberry and Passion Fruit R$ 25,00",
       },
       {
         pt: "Limão e maracujá R$ 25,00",
-        en: "Lime and Passion Fruit R$ 25.00",
+        en: "Lime and Passion Fruit R$ 25,00",
       },
-      { pt: "Kiwi e morango R$ 25,00", en: "Kiwi and Strawberry R$ 25.00" },
+      { pt: "Kiwi e morango R$ 25,00", en: "Kiwi and Strawberry R$ 25,00" },
     ],
     imagem: "/null.webp",
   },
@@ -611,19 +694,19 @@ export const caips: ItemCardapio[] = [
       en: "",
     },
     preco: [
-      { pt: "Limão R$ 18,00", en: "Lime R$ 18.00" },
-      { pt: "Morango R$ 18,00", en: "Strawberry R$ 18.00" },
-      { pt: "Abacaxi R$ 18,00", en: "Pineapple R$ 18.00" },
-      { pt: "Kiwi R$ 21,00", en: "Kiwi R$ 21.00" },
+      { pt: "Limão R$ 18,00", en: "Lime R$ 18,00" },
+      { pt: "Morango R$ 18,00", en: "Strawberry R$ 18,00" },
+      { pt: "Abacaxi R$ 18,00", en: "Pineapple R$ 18,00" },
+      { pt: "Kiwi R$ 21,00", en: "Kiwi R$ 21,00" },
       {
         pt: "Morango e maracujá R$ 23,00",
-        en: "Strawberry and Passion Fruit R$ 23.00",
+        en: "Strawberry and Passion Fruit R$ 23,00",
       },
       {
         pt: "Limão e maracujá R$ 23,00",
-        en: "Lime and Passion Fruit R$ 23.00",
+        en: "Lime and Passion Fruit R$ 23,00",
       },
-      { pt: "Kiwi e morango R$ 23,00", en: "Kiwi and Strawberry R$ 23.00" },
+      { pt: "Kiwi e morango R$ 23,00", en: "Kiwi and Strawberry R$ 23,00" },
     ],
     imagem: "/null.webp",
   },
@@ -637,19 +720,19 @@ export const caips: ItemCardapio[] = [
       en: "",
     },
     preco: [
-      { pt: "Limão R$ 20,00", en: "Lime R$ 20.00" },
-      { pt: "Morango R$ 20,00", en: "Strawberry R$ 20.00" },
-      { pt: "Abacaxi R$ 20,00", en: "Pineapple R$ 20.00" },
-      { pt: "Kiwi R$ 23,00", en: "Kiwi R$ 23.00" },
+      { pt: "Limão R$ 20,00", en: "Lime R$ 20,00" },
+      { pt: "Morango R$ 20,00", en: "Strawberry R$ 20,00" },
+      { pt: "Abacaxi R$ 20,00", en: "Pineapple R$ 20,00" },
+      { pt: "Kiwi R$ 23,00", en: "Kiwi R$ 23,00" },
       {
         pt: "Morango e maracujá R$ 25,00",
-        en: "Strawberry and Passion Fruit R$ 25.00",
+        en: "Strawberry and Passion Fruit R$ 25,00",
       },
       {
         pt: "Limão e maracujá R$ 25,00",
-        en: "Lime and Passion Fruit R$ 25.00",
+        en: "Lime and Passion Fruit R$ 25,00",
       },
-      { pt: "Kiwi e morango R$ 25,00", en: "Kiwi and Strawberry R$ 25.00" },
+      { pt: "Kiwi e morango R$ 25,00", en: "Kiwi and Strawberry R$ 25,00" },
     ],
     imagem: "/null.webp",
   },
@@ -663,19 +746,19 @@ export const caips: ItemCardapio[] = [
       en: "",
     },
     preco: [
-      { pt: "Limão R$ 26,00", en: "Lime R$ 26.00" },
-      { pt: "Morango R$ 26,00", en: "Strawberry R$ 26.00" },
-      { pt: "Abacaxi R$ 26,00", en: "Pineapple R$ 26.00" },
-      { pt: "Kiwi R$ 29,00", en: "Kiwi R$ 29.00" },
+      { pt: "Limão R$ 26,00", en: "Lime R$ 26,00" },
+      { pt: "Morango R$ 26,00", en: "Strawberry R$ 26,00" },
+      { pt: "Abacaxi R$ 26,00", en: "Pineapple R$ 26,00" },
+      { pt: "Kiwi R$ 29,00", en: "Kiwi R$ 29,00" },
       {
         pt: "Morango e maracujá R$ 31,00",
-        en: "Strawberry and Passion Fruit R$ 31.00",
+        en: "Strawberry and Passion Fruit R$ 31,00",
       },
       {
         pt: "Limão e maracujá R$ 31,00",
-        en: "Lime and Passion Fruit R$ 31.00",
+        en: "Lime and Passion Fruit R$ 31,00",
       },
-      { pt: "Kiwi e morango R$ 31,00", en: "Kiwi and Strawberry R$ 31.00" },
+      { pt: "Kiwi e morango R$ 31,00", en: "Kiwi and Strawberry R$ 31,00" },
     ],
     imagem: "/null.webp",
   },
@@ -689,19 +772,19 @@ export const caips: ItemCardapio[] = [
       en: "",
     },
     preco: [
-      { pt: "Limão R$ 20,00", en: "Lime R$ 20.00" },
-      { pt: "Morango R$ 20,00", en: "Strawberry R$ 20.00" },
-      { pt: "Abacaxi R$ 20,00", en: "Pineapple R$ 20.00" },
-      { pt: "Kiwi R$ 23,00", en: "Kiwi R$ 23.00" },
+      { pt: "Limão R$ 20,00", en: "Lime R$ 20,00" },
+      { pt: "Morango R$ 20,00", en: "Strawberry R$ 20,00" },
+      { pt: "Abacaxi R$ 20,00", en: "Pineapple R$ 20,00" },
+      { pt: "Kiwi R$ 23,00", en: "Kiwi R$ 23,00" },
       {
         pt: "Morango e maracujá R$ 25,00",
-        en: "Strawberry and Passion Fruit R$ 25.00",
+        en: "Strawberry and Passion Fruit R$ 25,00",
       },
       {
         pt: "Limão e maracujá R$ 25,00",
-        en: "Lime and Passion Fruit R$ 25.00",
+        en: "Lime and Passion Fruit R$ 25,00",
       },
-      { pt: "Kiwi e morango R$ 25,00", en: "Kiwi and Strawberry R$ 25.00" },
+      { pt: "Kiwi e morango R$ 25,00", en: "Kiwi and Strawberry R$ 25,00" },
     ],
     imagem: "/null.webp",
   },
@@ -801,7 +884,7 @@ export const sucos: ItemCardapio[] = [
       pt: "",
       en: "",
     },
-    preco: "R$ 14,00",
+    preco: "R$ 15,00",
     imagem: "/null.webp",
   },
   {
@@ -813,7 +896,7 @@ export const sucos: ItemCardapio[] = [
       pt: "",
       en: "",
     },
-    preco: "R$ 14,00",
+    preco: "R$ 15,00",
     imagem: "/null.webp",
   },
   {
@@ -912,7 +995,7 @@ export const zeroAlcool: ItemCardapio[] = [
       pt: "",
       en: "",
     },
-    preco: "R$ 7,00",
+    preco: "R$ 7,50",
     imagem: "/null.webp",
   },
   {
@@ -924,7 +1007,7 @@ export const zeroAlcool: ItemCardapio[] = [
       pt: "",
       en: "",
     },
-    preco: "R$ 7,00",
+    preco: "R$ 7,50",
     imagem: "/null.webp",
   },
   {
@@ -936,7 +1019,7 @@ export const zeroAlcool: ItemCardapio[] = [
       pt: "",
       en: "",
     },
-    preco: "R$ 7,00",
+    preco: "R$ 7,50",
     imagem: "/null.webp",
   },
   {
@@ -948,7 +1031,7 @@ export const zeroAlcool: ItemCardapio[] = [
       pt: "",
       en: "",
     },
-    preco: "R$ 7,00",
+    preco: "R$ 7,50",
     imagem: "/null.webp",
   },
   {
@@ -960,7 +1043,7 @@ export const zeroAlcool: ItemCardapio[] = [
       pt: "",
       en: "",
     },
-    preco: "R$ 7,00",
+    preco: "R$ 7,50",
     imagem: "/null.webp",
   },
   {
@@ -972,7 +1055,7 @@ export const zeroAlcool: ItemCardapio[] = [
       pt: "",
       en: "",
     },
-    preco: "R$ 7,00",
+    preco: "R$ 7,50",
     imagem: "/null.webp",
   },
   {
@@ -1020,7 +1103,7 @@ export const zeroAlcool: ItemCardapio[] = [
       pt: "",
       en: "",
     },
-    preco: "R$ 8,00",
+    preco: "R$ 7,50",
     imagem: "/null.webp",
   },
   {
@@ -1041,7 +1124,7 @@ export const zeroAlcool: ItemCardapio[] = [
       en: "Italian Soda – Non-alcoholic",
     },
     descricao: {
-      pt: "Drink sem álcool à base de xarope de frutas, suco de limão e água com gás. <br/> Opções de sabores: Morango, Tangerina ou Maça verde.",
+      pt: "Drink sem álcool à base de xarope de frutas, suco de limão e água com gás. Opções de sabores: Morango, Tangerina ou Maça verde.",
       en: "A non-alcoholic drink made with fruit syrup, lime juice, and sparkling water. Flavors available: Strawberry, Tangerine, or Green Apple.",
     },
     preco: "R$ 20,00",
@@ -1058,18 +1141,6 @@ export const zeroAlcool: ItemCardapio[] = [
     },
     preco: "R$ 14,00",
     imagem: "/longnecks/heineken-zero-long-neck.webp",
-  },
-  {
-    titulo: {
-      pt: "Corona zero",
-      en: "Corona 0.0",
-    },
-    descricao: {
-      pt: "",
-      en: "",
-    },
-    preco: "R$ 15,00",
-    imagem: "/null.webp",
   },
 ];
 
@@ -1602,7 +1673,7 @@ export const whiskyGarrafa: ItemCardapio[] = [
       pt: "8 anos",
       en: "8 years",
     },
-    preco: "R$ 200,00",
+    preco: "R$ 210,00",
     imagem: "/destilados/jack-daniels.webp",
   },
 ];

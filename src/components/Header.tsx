@@ -48,7 +48,8 @@ export default function Header({ locale }: HeaderProps) {
   ];
 
   return (
-    <header className="fixed top-0 left-0 w-full bg-[#1E2719] text-white px-6 py-4 shadow-md z-50">
+    /* BACKUP VERDE <header className="fixed top-0 left-0 w-full bg-[#1E2719] text-white px-6 py-4 shadow-md z-50">*/
+    <header className="fixed top-0 left-0 w-full bg-[#494d52] text-white px-6 py-4 shadow-md z-50">
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         {/* Logo */}
         <Link href={`/${locale}`} className="flex items-center gap-3">

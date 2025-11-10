@@ -9,7 +9,8 @@ export default function Footer({ locale }: FooterProps) {
   const text = locale === "pt" ? t.pt : t.en;
 
   return (
-    <footer className="bg-[#1E2719] text-white px-6 py-10 mt-12">
+    /* Backup verde  <footer className="bg-[#1E2719] text-white px-6 py-10 mt-12">*/
+    <footer className="bg-[#494d52] text-white px-6 py-10 mt-12">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
         {/* Horário */}
         <div>
