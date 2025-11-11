@@ -1067,7 +1067,7 @@ export const zeroAlcool: ItemCardapio[] = [
       pt: "",
       en: "",
     },
-    preco: "R$ 7,00",
+    preco: "R$ 7,50",
     imagem: "/null.webp",
   },
   {
@@ -1688,7 +1688,7 @@ export const growler: ItemCardapio[] = [
       pt: "Chopp premium, com ingredientes puros e selecionados. 1 Litro.",
       en: "1 liter",
     },
-    preco: "R$ 27,90,00",
+    preco: "R$ 28,00",
     imagem: "/chopps/growler-heineken.webp",
   },
   {
@@ -1700,7 +1700,7 @@ export const growler: ItemCardapio[] = [
       pt: "Chopp fresco, aroma neutro. Para quem prefere chopp com teor de amargor menos acentuado. 1 Litro.",
       en: "1 liter",
     },
-    preco: "R$ 21,90",
+    preco: "R$ 22,00",
     imagem: "/null.webp",
   },
   {
@@ -1712,7 +1712,7 @@ export const growler: ItemCardapio[] = [
       pt: "",
       en: "1 liter",
     },
-    preco: "R$ 21,90",
+    preco: "R$ 21,00",
     imagem: "/null.webp",
   },
 ];

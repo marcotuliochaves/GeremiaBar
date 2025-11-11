@@ -590,7 +590,7 @@ export const pratosPrincipais: ItemCardapio[] = [
       pt: "Filé mignon (200 gramas), acompanhado de arroz, ovo frito, fios de couve na manteiga e tropeirinho.",
       en: 'Tenderloin steak, rice, fried egg, "tropeiro" and braised green cabage.',
     },
-    preco: "R$ 68,00",
+    preco: "R$ 70,00",
     imagem: "/pratos/file-mignon-com-zoiudo.webp",
   },
   {
@@ -953,18 +953,6 @@ export const saladinha: ItemCardapio[] = [
     ],
     imagem: "/saladinha/salada-da-casa.webp",
   },
-  {
-    titulo: {
-      pt: "Mix de folhas",
-      en: "Green mix",
-    },
-    descricao: {
-      pt: "Alface, rúcula e couve.",
-      en: "Lettuce, arugula, green cabage.",
-    },
-    preco: "R$ 25,00",
-    imagem: "/saladinha/mix-de-folhas.webp",
-  },
 ];
 
 export const vegetarianos: ItemCardapio[] = [
@@ -978,7 +966,7 @@ export const vegetarianos: ItemCardapio[] = [
       en: "With rustic tomato sauce and Parmesan cheese.",
     },
     preco: "R$ 35,00",
-    imagem: "/vegetarianos/espaguete-de-abobrinha.webp",
+    imagem: "/vegetarianos/espaguete-abobrinha.webp",
   },
   {
     titulo: {
@@ -1045,18 +1033,6 @@ export const vegetarianos: ItemCardapio[] = [
       { pt: "Meia: R$ 30,00", en: "Half Size: R$ 30,00" },
     ],
     imagem: "/saladinha/salada-da-casa.webp",
-  },
-  {
-    titulo: {
-      pt: "Mix de folhas",
-      en: "Green mix",
-    },
-    descricao: {
-      pt: "Alface, rúcula e couve.",
-      en: "Lettuce, arugula, green cabage.",
-    },
-    preco: "R$ 25,00",
-    imagem: "/saladinha/mix-de-folhas.webp",
   },
   {
     titulo: {
