@@ -27,30 +27,6 @@ export const souvenir: ItemCardapio[] = [
   },
   {
     titulo: {
-      pt: "Camiseta Geremia Mineiridade – Branca",
-      en: "Geremia Mineiridade T-Shirt – White",
-    },
-    descricao: {
-      pt: "​",
-      en: "",
-    },
-    preco: "R$ 70,00",
-    imagem: "/souvenir/souvenir-camiseta-branca.webp",
-  },
-  {
-    titulo: {
-      pt: "Camiseta Geremia Mineiridade – Verde",
-      en: "Geremia Mineiridade T-Shirt – Green",
-    },
-    descricao: {
-      pt: "",
-      en: "",
-    },
-    preco: "R$ 70,00",
-    imagem: "/souvenir/souvenir-camiseta-verde.webp",
-  },
-  {
-    titulo: {
       pt: "Tulipa Geremia",
       en: "Tulip Geremia",
     },
@@ -60,17 +36,5 @@ export const souvenir: ItemCardapio[] = [
     },
     preco: "R$ 20,00",
     imagem: "/souvenir/souvenir-tulipa.webp",
-  },
-  {
-    titulo: {
-      pt: "Canequinha Geremia",
-      en: "Geremia Mug",
-    },
-    descricao: {
-      pt: "",
-      en: "",
-    },
-    preco: "R$ 29,90",
-    imagem: "/souvenir/souvenir-canequinha.webp",
   },
 ];

@@ -944,8 +944,8 @@ export const saladinha: ItemCardapio[] = [
       en: "House salad",
     },
     descricao: {
-      pt: "Salada de alface, rúcula, tomate, queijo muçarela,  palmito e cebola.",
-      en: "Lettuce, arugula, tomato, mozzarella cheese, heart of palm, and onion salad.",
+      pt: "Salada de alface, rúcula, tomate, queijo parmesão e palmito.",
+      en: "Lettuce, arugula, tomato, parmesan  cheese and heart of palm salad.",
     },
     preco: [
       { pt: "Inteira: R$ 50,00", en: "Full Size: R$ 50,00" },
@@ -1025,8 +1025,8 @@ export const vegetarianos: ItemCardapio[] = [
       en: "House salad",
     },
     descricao: {
-      pt: "Salada de alface, rúcula, tomate, queijo muçarela,  palmito e cebola.",
-      en: "Lettuce, arugula, tomato, mozzarella cheese, heart of palm, and onion salad.",
+      pt: "Salada de alface, rúcula, tomate, queijo parmesão e palmito.",
+      en: "Lettuce, arugula, tomato, parmesan  cheese and heart of palm salad.",
     },
     preco: [
       { pt: "Inteira: R$ 50,00", en: "Full Size: R$ 50,00" },
